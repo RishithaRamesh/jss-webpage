@@ -3,9 +3,8 @@ body {
   height: 100%;
   width: 100%;
   background-attachment: inherit;
-  background-color: #FCFDFE;
   font-family: Arial, Helvetica, sans-serif;
-  
+  background-color: rgb(230, 184, 230);
 }
 
 .marquee {
@@ -139,30 +138,40 @@ video {
 }
 
 .carousel-inner img {
-  align-content: center;
-  width: 100%;
+
+  width: 80%;
   height: 1%;
+  max-width: auto;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 200px;
+  padding-right: 0px;
 }
-#fixed {
-  background: url(the.jpeg) no-repeat center center fixed;
-  display: table;
-  height: 60%;
-  position: relative;
-  width: 100%;
-  background-size: cover;
-}
+
 
 video {
-  max-width: 100%;
+  min-width: 100%;
   height: auto;
   padding:0 15%;
-  align-content: center;
-
+  padding-top: 160px;
+  top: 50%;
+  left: 50%;
 }
 i{
   padding-right: 8px;
+}
+.row {
+  background-color: bisque;
+
+}
+#ri {
+  background-color: bisque;
+}
+#yo{
+  background-color: rgb(134, 103, 64);
+  padding-block: inherit;
+  
+}
+#da{
+  background-color: bisque;
 }
